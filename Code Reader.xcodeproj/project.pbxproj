@@ -15,6 +15,9 @@
 		B20E45A61ECA7E230094E1DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20E45A41ECA7E230094E1DA /* LaunchScreen.storyboard */; };
 		B20E45B11ECA7E230094E1DA /* Code_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E45B01ECA7E230094E1DA /* Code_ReaderTests.swift */; };
 		B20E45BC1ECA7E230094E1DA /* Code_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E45BB1ECA7E230094E1DA /* Code_ReaderUITests.swift */; };
+		B22AB5FC1ECBD2680097A914 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FB1ECBD2680097A914 /* CustomTabBarController.swift */; };
+		B22AB5FE1ECBD2C20097A914 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FD1ECBD2C20097A914 /* CustomTabBar.swift */; };
+		B22AB6001ECBD6220097A914 /* CodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B20E45B71ECA7E230094E1DA /* Code ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20E45BB1ECA7E230094E1DA /* Code_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_ReaderUITests.swift; sourceTree = "<group>"; };
 		B20E45BD1ECA7E230094E1DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22AB5FB1ECBD2680097A914 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		B22AB5FD1ECBD2C20097A914 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				B20E45A21ECA7E230094E1DA /* Assets.xcassets */,
 				B20E45A41ECA7E230094E1DA /* LaunchScreen.storyboard */,
 				B20E45A71ECA7E230094E1DA /* Info.plist */,
+				B22AB5FB1ECBD2680097A914 /* CustomTabBarController.swift */,
+				B22AB5FD1ECBD2C20097A914 /* CustomTabBar.swift */,
+				B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */,
 			);
 			path = "Code Reader";
 			sourceTree = "<group>";
@@ -266,7 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20E459E1ECA7E230094E1DA /* PassViewController.swift in Sources */,
+				B22AB5FE1ECBD2C20097A914 /* CustomTabBar.swift in Sources */,
+				B22AB6001ECBD6220097A914 /* CodeScannerViewController.swift in Sources */,
 				B20E459A1ECA7E230094E1DA /* AppDelegate.swift in Sources */,
+				B22AB5FC1ECBD2680097A914 /* CustomTabBarController.swift in Sources */,
 				B20E459C1ECA7E230094E1DA /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +530,7 @@
 				B20E45C21ECA7E230094E1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20E45C31ECA7E230094E1DA /* Build configuration list for PBXNativeTarget "Code ReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				B20E45C51ECA7E230094E1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20E45C61ECA7E230094E1DA /* Build configuration list for PBXNativeTarget "Code ReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				B20E45C81ECA7E230094E1DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
