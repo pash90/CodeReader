@@ -73,7 +73,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JtM-tc-mei" id="N0I-7d-KpM">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -92,7 +92,7 @@
         <!--Item-->
         <scene sceneID="5E7-Cu-gyD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r4f-37-Ma6" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r4f-37-Ma6" customClass="CustomNavigationController" customModule="Code_Reader" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" image="history" selectedImage="history" id="NFJ-LZ-pgY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="14q-oR-OXF">
