@@ -8,12 +8,16 @@
 
 import UIKit
 import AVFoundation
+import RealmSwift
 
 class CodeScannerViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
 
     //MARK: - Properties
     var session: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
+    
+    // Initialise Realm
+    let realm = try! Realm()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -111,9 +115,9 @@ class CodeScannerViewController: UIViewController, AVCaptureMetadataOutputObject
         let codeValue = [code.type, code.stringValue, Date(timeIntervalSince1970: code.time.seconds)] as [Any]
         
         // Add the code to storage
-//        realm.beginWrite()
-//        realm.create(Code.self, value: codeValue)
-//        try! realm.commitWrite()
+        realm.beginWrite()
+        realm.create(Code.self, value: codeValue)
+        try! realm.commitWrite()
         
         print(codeValue)
         
