@@ -20,6 +20,7 @@
 		B22AB5FC1ECBD2680097A914 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FB1ECBD2680097A914 /* CustomTabBarController.swift */; };
 		B22AB5FE1ECBD2C20097A914 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FD1ECBD2C20097A914 /* CustomTabBar.swift */; };
 		B22AB6001ECBD6220097A914 /* CodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */; };
+		B22B5F341ECDB298001999A5 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22B5F331ECDB298001999A5 /* Code.swift */; };
 		B2C6EAF11ECC7D01004EAA84 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6EAF01ECC7D01004EAA84 /* CustomNavigationController.swift */; };
 		B2C6EAF31ECC7DBB004EAA84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C6EAF21ECC7DBB004EAA84 /* Constants.swift */; };
 		DD84626FC8DABAAEF4BF3C8C /* Pods_Code_ReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A0004ECA71289CAC86A447 /* Pods_Code_ReaderTests.framework */; };
@@ -65,6 +66,7 @@
 		B22AB5FB1ECBD2680097A914 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		B22AB5FD1ECBD2C20097A914 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScannerViewController.swift; sourceTree = "<group>"; };
+		B22B5F331ECDB298001999A5 /* Code.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		B2C6EAF01ECC7D01004EAA84 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		B2C6EAF21ECC7DBB004EAA84 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B4A0004ECA71289CAC86A447 /* Pods_Code_ReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Code_ReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +150,7 @@
 				B22AB5FF1ECBD6220097A914 /* CodeScannerViewController.swift */,
 				B2C6EAF01ECC7D01004EAA84 /* CustomNavigationController.swift */,
 				B2C6EAF21ECC7DBB004EAA84 /* Constants.swift */,
+				B22B5F331ECDB298001999A5 /* Code.swift */,
 			);
 			path = "Code Reader";
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				B22AB5FC1ECBD2680097A914 /* CustomTabBarController.swift in Sources */,
 				B20E459C1ECA7E230094E1DA /* HistoryTableViewController.swift in Sources */,
 				B2C6EAF11ECC7D01004EAA84 /* CustomNavigationController.swift in Sources */,
+				B22B5F341ECDB298001999A5 /* Code.swift in Sources */,
 				B2C6EAF31ECC7DBB004EAA84 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
